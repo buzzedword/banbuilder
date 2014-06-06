@@ -1,0 +1,8 @@
+{
+    "name": "snipe/banbuilder",
+    "autoload": {
+        "psr-0" : {
+            "Snipe\\BanBuilder" : "src"
+        }
+    }
+}
