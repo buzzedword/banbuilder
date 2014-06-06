@@ -1,8 +1,23 @@
 {
-    "name": "snipe/banbuilder",
-    "autoload": {
-        "psr-0" : {
-            "Snipe\\BanBuilder" : "src"
-        }
-    }
+	"name": "snipe/banbuilder",
+	"description": "Library to detect profanity",
+	"keywords": ["profanity", "filter", "strings"],
+	"license": "GNU-Affero",
+	"authors": [
+		{
+			"name": "Alison Gianotto",
+			"email": "snipe@snipe.net",
+			"role": "Creator & Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+
+	"autoload": {
+		"psr-0": {
+			"Snipe\\BanBuilder": "src/"
+		}
+	},
+	"minimum-stability": "dev"
 }
