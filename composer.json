@@ -2,7 +2,7 @@
 	"name": "snipe/banbuilder",
 	"description": "Library to detect profanity",
 	"keywords": ["profanity", "filter", "strings"],
-	"license": "GNU-Affero",
+	"license": "AGPL-3.0",
 	"authors": [
 		{
 			"name": "Alison Gianotto",
