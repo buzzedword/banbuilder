@@ -1,8 +1,8 @@
-<?php namespace Snipe\BanBuilder\Facades;
+<?php namespace Snipe\Banbuilder\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class BanBuilder extends Facade {
+class Banbuilder extends Facade {
 
   /**
    * Get the registered name of the component.

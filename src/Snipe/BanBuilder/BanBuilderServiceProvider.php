@@ -1,8 +1,8 @@
-<?php namespace Snipe\BanBuilder;
+<?php namespace Snipe\Banbuilder;
 
 use Illuminate\Support\ServiceProvider;
 
-class BanBuilderServiceProvider extends ServiceProvider {
+class BanbuilderServiceProvider extends ServiceProvider {
 
   /**
    * Indicates if loading of the provider is deferred.
@@ -31,13 +31,13 @@ class BanBuilderServiceProvider extends ServiceProvider {
     //
 		$this->app['supyo'] = $this->app->share(function($app)
 	  	{
-			return new BanBuilder;
+			return new Banbuilder;
 	  	});
 
 	  	$this->app->booting(function()
 		{
 		  $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-		  $loader->alias('BanBuilder', 'Snipe\BanBuilder\Facades\BanBuilder');
+		  $loader->alias('Banbuilder', 'Snipe\BanBuilder\Facades\Banbuilder');
 		});
   }
 
