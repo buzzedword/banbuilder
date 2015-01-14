@@ -1,7 +1,7 @@
 Banbuilder Composer Package
 ===================
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/snipe/banbuilder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/snipe/banbuilder.svg?branch=master)](https://travis-ci.org/snipe/banbuilder)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/snipe/banbuilder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/snipe/banbuilder.svg?branch=master)](https://travis-ci.org/snipe/banbuilder) [![Latest Stable Version](https://poser.pugx.org/snipe/banbuilder/v/stable.svg)](https://packagist.org/packages/snipe/banbuilder) [![Total Downloads](https://poser.pugx.org/snipe/banbuilder/downloads.svg)](https://packagist.org/packages/snipe/banbuilder) [![Latest Unstable Version](https://poser.pugx.org/snipe/banbuilder/v/unstable.svg)](https://packagist.org/packages/snipe/banbuilder) [![License](https://poser.pugx.org/snipe/banbuilder/license.svg)](https://packagist.org/packages/snipe/banbuilder)
 
 -----
 
