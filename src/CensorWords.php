@@ -4,6 +4,34 @@ namespace Snipe\Banbuilder;
 
 class CensorWords
 {
+	/**
+	 *  Sets the dictionar(y|ies) to use
+	 *  This can accept a string to a language file path, 
+	 *  or an array of strings to multiple paths
+	 * 
+	 *  @param		string/array
+	 *  string
+	 */
+	public function setDictionary($dicts) {
+		
+		$badwords = array();
+		
+		if (is_array($dicts)) {
+			for ($x=0; $x < count($dicts); $x++) {
+				include('dict/'.$dicts[$x].'.php');	
+				
+			} 
+			
+		} elseif (is_string($dicts)) {
+			include('dict/'.$dicts.'.php');	
+						
+		}
+		
+		return $badwords;
+			 
+	}
+
+
     /**
 	 *  Generates a random string.
 	 *  @param        string          $chars        Chars that can be used.
