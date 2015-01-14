@@ -12,7 +12,7 @@ class CensorWords
 	 *  @param		string/array
 	 *  string
 	 */
-	public function setDictionary($dicts) {
+	public function setDictionary($dicts = 'en-us') {
 		
 		$badwords = array();
 		
