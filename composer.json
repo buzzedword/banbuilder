@@ -1,0 +1,28 @@
+{
+    "name": "snipe/banbuilder",
+    "description": "Library to easily handle profanity filtering in PHP projects",
+    "authors": [
+        {
+            "name": "snipe",
+            "email": "snipe@snipe.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    
+    "version": "dev-master",
+            "source": {
+                "url": "git://github.com/snipe/banbuilder.git",
+                "type": "git",
+                "reference": "composer"
+            },
+            
+            
+    "autoload": {
+        "psr-0": {
+            "Snipe\\BanBuilder": "src/"
+        }
+    }
+}
