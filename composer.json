@@ -16,7 +16,7 @@
             "source": {
                 "url": "git://github.com/snipe/banbuilder.git",
                 "type": "git",
-                "reference": "composer"
+                "reference": "master"
             },
             
             
