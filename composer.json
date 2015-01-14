@@ -1,6 +1,6 @@
 {
     "name": "snipe/banbuilder",
-    "description": "Library to easily handle profanity filtering in PHP projects",
+    "description": "Library to easily handle profanity filtering in PHP projects - THIS IS NOT STABLE YET. DO NOT USE IT YET.",
     "authors": [
         {
             "name": "snipe",
