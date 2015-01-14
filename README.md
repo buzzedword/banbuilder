@@ -1,6 +1,8 @@
 banbuilder-composer
 ===================
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/snipe/banbuilder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Composer version of Banbuilder library
 
 -----
