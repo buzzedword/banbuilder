@@ -21,8 +21,8 @@
             
             
     "autoload": {
-        "psr-0": {
-            "Snipe\\BanBuilder": "src/"
+        "psr-4": {
+            "Snipe\\BanBuilder\\": "src/"
         }
     }
 }
